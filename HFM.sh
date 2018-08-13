@@ -26,5 +26,5 @@ case $1 in
         stop_fabric
         ;;
     *)
-        echo 'Usage: ./fabricUtil start | stop'
+        echo 'Usage: ./HFL start | stop'
 esac
