@@ -5,8 +5,7 @@ start_fabric() {
     
     echo "Starting all docker containers"
     docker ps -q -a | xargs docker start
-    echo
-    echo 'BNA container may still show up as dangling/exited - First command will start BNA'
+    echo    
     echo 'Hyperledger Fabric environment started ... done'
     
 }
